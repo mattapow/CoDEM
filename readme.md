@@ -1,4 +1,4 @@
-## Discrete Element Method (DEM) Simulations
+# Discrete Element Method (DEM) Simulations
 The code implements a DEM simluation of grains in bi-periodic shear. Grain interactions are easily customisable in contact.cpp, where they currently include elasticity, viscous forces, cohesion and friction. 
 
 The source c++ code was written by Pierre Rognon and modified by Prashida Kharel and Matthew Macaulay.
@@ -11,7 +11,7 @@ Alternatively, once Qt Creator has built it, you can call the binary file direct
 
 Once running, the program will ask for inputs using a keyword. For example using the action keyword: ACTION CREATE_RANDOM. 
 
-# Computational Time
+### Computational Time
 Lower shear rates take longer, above 10^-3 is reasonable.
 The pairwise-distance computation is O(n^2). n=10^4 is reasonable.   
 
